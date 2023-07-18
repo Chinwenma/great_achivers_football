@@ -5,8 +5,7 @@ module.exports = {
     extend: {
       colors:{
        lightColor:"hsl(225, 24%, 87%)",
-       semiDarkColor:"hsl()",
-       
+       semiDarkColor:"hsl(220, 34%, 9%)",      
       }
     },
   },

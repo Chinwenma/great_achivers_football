@@ -5,47 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/style/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 
   <title>Document</title>
 </head>
-<style>
-  /* Styles for the hero section */
-  .hero {
-    position: relative;
-    height: 500px;
-  }
 
-  .hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-  }
-
-  /* Styles for the slider */
-  .fade-in-out {
-    animation: fade 5s ease-in-out infinite;
-  }
-
-  @keyframes fade {
-    0% { opacity: 0; }
-    25% { opacity: 1; }
-    75% { opacity: 1; }
-    100% { opacity: 0; }
-  }
-  </style>
 
 <body>
   <header class="bg-lightColor text-black shadow-lg">
@@ -69,27 +34,69 @@
         Get Started
       </button>
 
+
+
+
+
+           <!--hamburgericon-->
+           <div id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </div>
+    </div>
+    <!--mobile menu-->
+    <div class=" md:hidden ">
+        <div id="menu"
+            class="absolute flex-col items-center hidden  self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+            <a href="#">Pricing</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+        </div>
+    </div>
+
       <!-- Hamburger Menu -->
-      <div class="md:hidden flex items-center">
+      <!-- <div class="md:hidden flex items-center">
         <button type="submit" id="hamburger-btn" class="focus:outline-none">
-          <span class="block bg-gray-300 w-6 h-1 rounded-full"></span>
-          <span class="block bg-gray-300 w-6 h-1 rounded-full mt-1"></span>
-          <span class="block bg-gray-300 w-6 h-1 rounded-full mt-1"></span>
+          <span class="block bg-semiDarkColor w-6 h-1 rounded-full"></span>
+          <span class="block bg-semiDarkColor w-6 h-1 rounded-full mt-1"></span>
+          <span class="block bg-semiDarkColor w-6 h-1 rounded-full mt-1"></span>
         </button>
-      </div>
+      </div> -->
     </div>
   </header>
 
-  <!-- Rest of your landing page content -->
 
-  <script>
+
+
+
+
+  <section class="hero relative" >
+    <!-- Background Image -->
+    <div class="hero-image" style="background-image: url('./assets/hero.png');"></div>
+
+    <!-- Overlay Text -->
+    <div class="overlay absolute top-0 left-0 h-full w-full flex items-center justify-center ">
+      <div class="overlay-content bg-opacity-50 bg-gray-900 text-white text-center px-4 py-6 space-x-auto">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Your Landing Page</h1>
+        <h1 class="text-2xl md:text-4xl font-bold mb-4">Explore the possibilities</h1>
+        <p class="text-lg md:text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula leo in orci vehicula ultricies. Vestibulum consequat mattis lectus, nec posuere lorem rhoncus eget.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- <script>
     const hamburgerBtn = document.getElementById('hamburger-btn');
     const navLinks = document.querySelector('.nav-links');
 
     hamburgerBtn.addEventListener('click', () => {
       navLinks.classList.toggle('hidden');
     });
-  </script>
+  </script> -->
 
 
 
@@ -97,27 +104,31 @@
 
 
 
-  <!-- <div class="container mx-auto px-4 py-8">
+  <div class="mx-auto px-4 py-8 bg-lightColor w-full">
     <div class="text-center">
       <h1 class="text-4xl font-bold text-gray-800">About Us</h1>
     </div>
     <div class="flex flex-col md:flex-row items-center mt-12">
-      <div class="md:w-1/2 md:pr-4">
-        <p class="text-lg text-gray-600 leading-relaxed">We are a team of passionate developers who love to create
+      <div class="md:w-1/2 md:pr-4 ">
+        <p class="text-lg leading-relaxed text-semiDarkColor">We are a team of passionate developers who love to create
           beautiful and functional websites. We have years of experience in web development and design, and we always
           strive to deliver the best results for our clients.</p>
         <a href="#"
-          class="inline-block mt-4 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">Read
+          class="inline-flex justify-center items-center mt-4 px-6 py-2 bg-semiDarkColor text-white font-semibold rounded-lg gap-2 hover:bg-blue-700">Learn
           More</a>
-      </div>
+      </div> 
       <div class="md:w-1/2 md:pl-4 mt-8 md:mt-0">
         <div class="relative">
-          <img src="graphic_art('a team of developers working on a laptop')"
-            alt="A team of developers working on a laptop" class="w-full h-full object">
+          <img src="./assets/logo.png"
+            alt="hero-image" class="w-96 h-2/4 object-cover">
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+
+
+
+<script src="./scripts/index.js" ></script> 
 </body>
 
 </html>
