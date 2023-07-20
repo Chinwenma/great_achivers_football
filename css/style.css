@@ -162,7 +162,39 @@ body {
   .about{
     background-color: rgb(31, 31, 56);
   }
-
+  .features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feature img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .counter {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .features p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    /* font-family: Pacifico;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; */
+  }
 
 
 
@@ -201,10 +233,16 @@ body {
       .img-container {
         margin-right: 20px;
       }
+      .features {
+        grid-template-columns: repeat(2, 1fr);
+      }
   }
   
   /* Screens with minimum width of 1024px */
   @media screen and (min-width: 1024px) {
+    .features {
+        grid-template-columns: repeat(4, 1fr);
+      }
     /* Add any additional styles for this screen size if needed */
   }
   
@@ -255,6 +293,14 @@ body {
     
       .about-content .text-container p {
         font-size: 14px;
+      }
+      .features .counter {
+        font-size: 20px;
+      }
+    
+      .features p {
+        font-size: 14px;
+    
       }
   
     /* Additional styles for this screen size if needed */
