@@ -4,90 +4,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/style/output.css" rel="stylesheet">
-
-
-  <title>Great Achivers Football Club</title>
+  <title>Mobile-First Landing Page</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
-
 <body>
-  <header class="bg-lightColor text-black shadow-lg">
-    <div class="container mx-auto flex items-center justify-between py-4 px-6">
-      <!-- Logo -->
-      <div class="flex items-center hover:cursor-pointer">
-        <img src="./assets/Logo (5).png" alt="Logo" class="w-10 h-10 rounded-full">
-        <span class="text-sm font-semibold ml-2 text-center">Great Achievers <br>Football Club</span>
-      </div>
-
-      <!-- Navigation Links -->
-      <nav class="hidden md:flex space-x-4 nav-links">
-        <a href="#"
-          class="hover:text-orange-600 hover:border-b-2 hover:border-orange-500 transition-all duration-300">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-      </nav>
-
-      <!-- Button -->
-      <button class="hidden md:block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
-        Get Started
-      </button>
-
-
-
-
-
-      <!--hamburgericon-->
-      <div id="menu-btn" class="block hamburger md:hidden focus:outline-none">
-        <span class="hamburger-top"></span>
-        <span class="hamburger-middle"></span>
-        <span class="hamburger-bottom"></span>
-      </div>
+  <header>
+    <div class="logo-container">
+      <img src="./assets/Logo (5).png" alt="Logo">
+      <span class="logo-text">Your Logo Text</span>
     </div>
-    <!--mobile menu-->
-    <div class=" md:hidden ">
-      <div id="menu"
-        class="absolute flex-col items-center hidden  self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-        <a href="#">Pricing</a>
-        <a href="#">Product</a>
-        <a href="#">About Us</a>
-        <a href="#">Careers</a>
-        <a href="#">Community</a>
-      </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="login-btn">Login</button>
+    <div class="hamburger">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
     </div>
   </header>
 
+  <!-- Add your main content here -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>Your Hero Title</h1>
+      <h2>Your Hero Subtitle</h2>
+      <p>Your Hero Description</p>
+    </div>
+  </section>
+  <section class="about-us">
+    <h1>About Us</h1>
+    <div class="about-content">
+      <div class="img-container">
+        <img src="./assets/logo.png" alt="logo">
+      </div>
+      <div class="text-container">
+        <h2>About Our Company</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Maiores nesciunt nulla hic excepturi ipsa pariatur quod doloremque magni aut error! Qui cupiditate quos,
+          expedita fuga obcaecati eum placeat aut autem?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Corrupti, alias! Eligendi adipisci minus ratione aliquid illum magni minima maxime saepe voluptatem non
+          deserunt commodi ab aspernatur hic maiores, ullam asperiores!</p>
+          <button class="read-more-btn">Read More</button>
 
-
-
-
-
-  <section class="hero relative">
-    <!-- Background Image -->
-    <div class="hero-image" style="background-image: url('./assets/hero.png');"></div>
-
-    <!-- Overlay Text -->
-    <div class="overlay absolute top-0 left-0 h-full w-full flex items-center justify-center ">
-      <div class="overlay-content bg-opacity-50 bg-gray-900 text-white text-center px-4 py-6 space-x-auto">
-        <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Your Landing Page</h1>
-        <h1 class="text-2xl md:text-4xl font-bold mb-4">Explore the possibilities</h1>
-        <p class="text-lg md:text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula leo in orci
-          vehicula ultricies. Vestibulum consequat mattis lectus, nec posuere lorem rhoncus eget.</p>
+      </div>
+    </div>
+  </section>
+  <section class="about-us about">
+    <div class="about-content">
+     
+      <div class="text-container">
+        <h2>About Our Company</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Maiores nesciunt nulla hic excepturi ipsa pariatur quod doloremque magni aut error! Qui cupiditate quos,
+          expedita fuga obcaecati eum placeat aut autem?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Corrupti, alias! Eligendi adipisci minus ratione aliquid illum magni minima maxime saepe voluptatem non
+          deserunt commodi ab aspernatur hic maiores, ullam asperiores!</p>
+        <button class="read-more-btn">Read More</button>
+      </div>
+      <div class="img-container">
+        <img src="./assets/about.png" alt="logo">
       </div>
     </div>
   </section>
 
 
 
-  <!-- <script>
-    const hamburgerBtn = document.getElementById('hamburger-btn');
-    const navLinks = document.querySelector('.nav-links');
-
-    hamburgerBtn.addEventListener('click', () => {
-      navLinks.classList.toggle('hidden');
-    });
-  </script> -->
 
 
 
@@ -95,26 +85,9 @@
 
 
 
-  <div class="mx-auto px-4 py-8 bg-lightColor w-full">
-    <div class="text-center">
-      <h1 class="text-4xl font-bold text-gray-800">About Us</h1>
-    </div>
-    <div class="flex flex-col md:flex-row items-center mt-12">
-      <div class="md:w-1/2 md:pr-4 ">
-        <p class="text-lg leading-relaxed text-semiDarkColor">We are a team of passionate developers who love to create
-          beautiful and functional websites. We have years of experience in web development and design, and we always
-          strive to deliver the best results for our clients.</p>
-        <a href="#"
-          class="inline-flex justify-center items-center mt-4 px-6 py-2 bg-semiDarkColor text-white font-semibold rounded-lg gap-2 hover:bg-blue-700">Learn
-          More</a>
-      </div>
-      <div class="md:w-1/2 md:pl-4 mt-8 md:mt-0">
-        <div class="relative">
-          <img src="./assets/logo.png" alt="hero-image" class="w-96 h-2/4 object-cover">
-        </div>
-      </div>
-    </div>
-  </div>
+
+
+
 
 
 

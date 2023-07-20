@@ -1,8 +1,8 @@
-const btn = document.getElementById('menu-btn');
-const nav = document.getElementById('menu');
+// JavaScript for handling the hamburger menu toggle
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
 
-btn.addEventListener('click', () => {
-btn.classList.toggle('open')
-nav.classList.toggle('flex')
-nav.classList.toggle('hidden');
-})
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+  hamburger.classList.toggle("active");
+});
