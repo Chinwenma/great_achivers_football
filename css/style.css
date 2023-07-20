@@ -69,7 +69,7 @@ body {
   }
   .hero {
     height: 100vh; /* 100% of the viewport height */
-    background-image: url(../assets/hero.png);
+    background-image: url('../assets/hero.png');
     background-size: cover;
     padding-top: 70px;
     background-repeat: no-repeat;
