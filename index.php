@@ -11,8 +11,7 @@
       <div class="col-lg-6 col-md-12 col-12 ps-lg-5 mt-md-5">
         <div class="about-text">
           <h2>About Great Achievers Football Club </h2>
-          Services Ever</h2>
-          <p>Great Achievers Football Academy, a renowned football institution based in Nigeria with a vision to shape young talents into future stars. Our academy is built on a foundation of excellence, dedication, and a commitment to fostering the next generation of football achievers.
+                 <p>Great Achievers Football Academy, a renowned football institution based in Nigeria with a vision to shape young talents into future stars. Our academy is built on a foundation of excellence, dedication, and a commitment to fostering the next generation of football achievers.
             At Great Achievers, we strive to provide a nurturing environment where aspiring young players can develop their skills, knowledge, and character.
           </p><a class="btn btn-warning mb-3" href="#">Learn More</a>
         </div>
