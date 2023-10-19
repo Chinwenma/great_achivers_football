@@ -1,17 +1,6 @@
-<div id="preloader-active">
-      <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-inner position-relative">
-          <div class="page-loading">
-            <div class="page-loading-inner">
-              <div class="scaling-dots">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+    <div class="d-flex  align-items-center  justify-content-center">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
