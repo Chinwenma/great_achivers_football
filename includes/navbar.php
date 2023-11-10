@@ -13,14 +13,14 @@
           <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link " href="about.php">About</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="signin.php">Sign in</a>
+          <a class="nav-link" href="gallery.php">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="signup.php">Sign up</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
       </ul>
       <div class="ms-auto"><a href="#" class="btn btn-warning ">Partner with us</a>

@@ -1,8 +1,8 @@
 <?php include('./includes/header.php'); ?>
 
 
-<div class="banner  bg-image ">
-  <div class="title">
+<div class="hero  bg-image ">
+  <div class="hero_text">
     <h2>Discover your true potential with <br><span>Great Achievers</span> Football Academy</h2>
     <p>Nurturing Talent, Shaping Champions</p>
   </div>
@@ -96,7 +96,7 @@
   </div>
 </section>
 <section class="contact pt-5 background-opacity" >
-  <div class=" container row section-content ms-5 pb-5 pt-5">
+  <div class=" container row section-content  pb-5 pt-5">
     <div class="col-md-6"> 
       <h2>Have any questions for us?</h2>
       <h3>Contact Information:</h3>
