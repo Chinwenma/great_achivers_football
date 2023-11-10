@@ -1,187 +1,131 @@
-<?php include('includes/header.php'); ?>
+<?php include('./includes/header.php'); ?>
 
 
+<div class="banner  bg-image ">
+  <div class="title">
+    <h2>Discover your true potential with <br><span>Great Achievers</span> Football Academy</h2>
+    <p>Nurturing Talent, Shaping Champions</p>
+  </div>
 
-<section class="about section-padding" id="about" style=" background-color: #D6D9E5;">
-  <div class="container">
+</div>
+<section style="background-color: #D6D9E5;">
+  <div class="container pt-5 pb-3">
     <div class="row">
-      <div class="col-lg-6 col-md-12 col-12">
-        <div class="about-img"><img alt="" class="img-fluid" src="assets/img/logo.png"></div>
+      <!-- Image on the left -->
+      <div class="col-md-6">
+        <img src="assets/img/logo.png" alt="About Us Image" class="img-fluid">
       </div>
-      <div class="col-lg-6 col-md-12 col-12 ps-lg-5 mt-md-5">
-        <div class="about-text">
-          <h2>About Great Achievers Football Club </h2>
-                 <p>Great Achievers Football Academy, a renowned football institution based in Nigeria with a vision to shape young talents into future stars. Our academy is built on a foundation of excellence, dedication, and a commitment to fostering the next generation of football achievers.
-            At Great Achievers, we strive to provide a nurturing environment where aspiring young players can develop their skills, knowledge, and character.
-          </p><a class="btn btn-warning mb-3" href="#">Learn More</a>
-        </div>
+      <!-- Text content on the right -->
+      <div class="col-md-6">
+        <h2>About Great Achievers Football Club</h2>
+        <p class="text-sm-justify"> Great Achievers Football Academy, a renowned football institution based in Nigeria with a vision to shape young talents into future stars. Our academy is built on a foundation of excellence, dedication, and a commitment to fostering the next generation of football achievers.</p>
+        <p class="text-sm-justify">At Great Achievers, we strive to provide a nurturing environment where aspiring young players can develop their skills, knowledge, and character. While we may not have played international matches yet, our focus on quality training and rigorous competitions has propelled our junior teams to face senior professional teams within our state and across the country, challenging them to showcase their talent and determination.</p>
+
+        <a href="#" class="btn  link " style="  text-align: center;">Learn More</a>
       </div>
     </div>
   </div>
 </section>
-<section class="about pt-5 pb-5" id="about" style=" background-color: #1A203E;">
-  <div class="container">
+<section style="background-color: #0A0D19; color:#D6D9E5;">
+  <div class="container pt-5 ">
     <div class="row">
 
-      <div class="col-lg-6 col-md-12 col-12 ps-lg-5 mt-md-5" style="color:#D6D9E5;">
-        <div class="about-text">
-          <h2>We are here to guide you</h2>
-          <p>We provide dedicated support and guidance, empowering young people with the knowledge and mentorship needed to navigate their football journey and reach new heights in their career. Our experienced coaches and staff will be there every step of the way, helping you make informed decisions and maximizing your potential.
-          </p><a class="btn btn-warning" href="#">Join Us!</a>
-        </div>
+      <!-- Text content on the left -->
+      <div class="col-md-6">
+        <h2 style="color:#C1A00E;">We are here to guide you</h2>
+
+        <p class="text-sm-justify">We provide dedicated support and guidance, empowering young people with the knowledge and mentorship needed to navigate their football journey and reach new heights in their career. Our experienced coaches and staff will be there every step of the way, helping you make informed decisions and maximizing your potential.</p>
+        <a href="#" class="btn link mb-3">Join Us Today!</a>
+
       </div>
-      <div class="col-lg-5 col-md-12 col-12">
-        <div class="about-img"><img alt="" class="img-fluid" src="assets/img/about.png"></div>
+      <!-- Image on the right -->
+
+      <div class="col-md-6 mb-5">
+        <img src="assets/img/about.png" alt="About Us Image" class="img-fluid rounded">
       </div>
     </div>
   </div>
 </section>
+<section style="background-color: #D6D9E5;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="counter d-flex justify-content-center">
+          <img src="assets/img/ion_football.png" alt="">
+          <div style="flex-direction: column;">
+            <div class="counter-number">90+</div>
+            <div class="counter-text">Matches</div>
+          </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <div class="counter d-flex justify-content-center">
-        <img src="assets/img/ion_football.png" alt="">
-        <div style="flex-direction: column;">
-          <div class="counter-number">90+</div>
-          <div class="counter-text">Matches</div>
         </div>
-
       </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <div class="counter d-flex justify-content-center">
-        <img src="assets/img/gridicons_trophy.png" alt="">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="counter d-flex justify-content-center">
+          <img src="assets/img/gridicons_trophy.png" alt="">
 
-        <div style="flex-direction: column;">
-          <div class="counter-number">70%</div>
-          <div class="counter-text">wins</div>
+          <div style="flex-direction: column;">
+            <div class="counter-number">70%</div>
+            <div class="counter-text">wins</div>
+          </div>
+
         </div>
-
       </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <div class="counter d-flex justify-content-center">
-        <img src="assets/img/teamwork.png" alt="">
-        <div style="flex-direction: column;">
-          <div class="counter-number">3</div>
-          <div class="counter-text">teams</div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="counter d-flex justify-content-center">
+          <img src="assets/img/teamwork.png" alt="">
+          <div style="flex-direction: column;">
+            <div class="counter-number">3</div>
+            <div class="counter-text">teams</div>
+          </div>
+
         </div>
-
       </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <div class="counter d-flex justify-content-center">
-        <img src="assets/img/maki_soccer.png" alt="">
-        <div style="flex-direction: column;">
-          <div class="counter-number">80+</div>
-          <div class="counter-text">players</div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="counter d-flex justify-content-center">
+          <img src="assets/img/maki_soccer.png" alt="">
+          <div style="flex-direction: column;">
+            <div class="counter-number">80+</div>
+            <div class="counter-text">players</div>
+          </div>
+
         </div>
-
       </div>
-    </div>
 
-    <!-- Add more counters as needed -->
+      <!-- Add more counters as needed -->
+    </div>
   </div>
-</div>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+</section>
+<section class="contact pt-5 background-opacity" >
+  <div class=" container row section-content ms-5 pb-5 pt-5">
+    <div class="col-md-6"> 
+      <h2>Have any questions for us?</h2>
+      <h3>Contact Information:</h3>
+      <ul class="list-unstyled">
+        <li><i class="bi bi-envelope"></i> Email: info@example.com</li>
+        <li><i class="bi bi-phone"></i> Phone: +1 (123) 456-7890</li>
+        <li><i class="bi bi-geo-alt"></i> Address: 123 Main St, City</li>
+      </ul>
+    </div>
 
-  .counter {
-    text-align: center;
-    padding: 20px;
-    display: flex;
-  }
-
-  .counter-icon {
-    font-size: 48px;
-    margin-bottom: 10px;
-    color: #0A0D19;
-
-  }
-
-  .counter-number {
-    font-size: 36px;
-    font-weight: 700;
-    color: #0A0D19;
-
-    font-family: 'Pacifico', cursive;
-  }
-
-  .counter-text {
-    font-size: 24px;
-    font-family: 'Pacifico', cursive;
-    font-weight: 400;
-
-  }
-
-  .y {
-    background: url('./assets/img/table.png') center center/cover no-repeat;
-    position: relative;
-
-    /* Adjust the height as needed */
-  }
+    <div class="col-md-6">
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
 
 
-  .table {
-    background-color: rgba(255, 255, 255, 0.9);
-    /* White background for the container */
-
-    border: 2px solid black;
-    /* Add a border */
-    border-radius: 20px;
-    /* Add a border radius */
-    padding: 20px;
-
-    margin: 0 auto;
-    /* Center the container horizontally */
-    max-width: 80%;
-    /* Adjust the maximum width as needed */
-  }
-
-
-  h2 {
-    text-align: center;
-    padding: 20px;
-  }
-</style>
-<div class=" y mt-5">
-
-  <h2 style="text-align: center;">Training</h2>
-  <table class=" container table">
-    <thead>
-      <tr>
-
-        <th>Programs</th>
-        <th>Age range</th>
-        <th>Focus Area</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-
-        <td>Rising Stars</td>
-        <td>Under 13 years</td>
-        <td>Shaping young talents, mastering skills, teamwork</td>
-      </tr>
-      <tr>
-
-        <td>Future Champions</td>
-        <td>Under 16 years</td>
-        <td>Elevating performance, tactical prowess, competitive edge</td>
-      </tr>
-      <tr>
-        <td>Elite Prospects</td>
-        <td>Above 16 years</td>
-        <td>Advancing skills, professional development, breakthrough</td>
-      </tr>
-      <tr>
-        <td>Goalkeeper Clinic</td>
-        <td>12 years & above</td>
-        <td>Goalkeeping mastery, reflex training, commanding the box</td>
-
-      </tr>
-    </tbody>
-  </table>
-</div>
-<?php include('includes/footer.php'); ?>
+<?php include('./includes/footer.php'); ?>

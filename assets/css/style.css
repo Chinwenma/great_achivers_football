@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2{
+  font-size: 1.25rem;
+}
+.navbar{
+  color: #1A203E;
+  background: #D6D9E5;
+box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.50);
+}
+
+.banner {
+ padding: 20px;
+ height: 50vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-image: url("../img/slide1.png");
+ /* background: linear-gradient(90deg, hsla(0, 100%, 20%, 0.875) 60%, hsla(0, 100%, 20%, 0.875) 100%), url("../img/slide1.png"); */
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ color: var(--gray-100);
+ gap: 20px;
+}
+
+.banner .title {
+  background-color: rgba(52, 64, 124, 0.65);
+ letter-spacing: 1px;
+ text-align: center;
+ color: #fff;
+}
+
+.banner .title span{
+  color: #E9C525;
+}
+.banner .title p{
+  color: #DBD5D5;
+}
+.about{
+  background: #D6D9E5;
+
+}
+
+.about__page {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: var(--normal-font-size);
+
+}
+
+.about__text h2 {
+    font-size: 20px;
+    color: black;
+    font-weight:bold;
+    text-align: center;
+    
+}
+
+.about__text p {
+  text-align: justify;
+  font-size: .938rem;
+  padding: 0 20px;
+}
+
+
+.about__image img {
+    width:100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.about{
+  background: #D6D9E5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 35px; */
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.link { 
+  padding: 10px;
+  width: max-content;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  outline: none;
+  background-color:  #E8BF3E;;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.link:hover {
+  border: 2px solid white;
+  background-color: #0A0D19;
+  color: #fff;
+}
+.counter {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+}
+
+.counter-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #0A0D19;
+
+}
+
+.counter-number {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0A0D19;
+
+  font-family: 'Pacifico', cursive;
+}
+
+.counter-text {
+  font-size: 24px;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+
+}
+.contact {
+  width: 100%;
+  background: linear-gradient(30deg, hsla(0, 0%, 57%, 0.875) 60%, hsla(245, 45%, 39%, 0.875) 100%), url('../img/logo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.section-content {
+  position: relative;
+  z-index: 1;
+}
+.contact h2,
+.contact p,
+.contact ul,
+.contact li,
+.contact form {
+  position: relative;
+  z-index: 2;
+}
+footer{
+  background-color: #0A0D19;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  h2{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  p{
+    font-size: 18px;
+  }
+  .banner {
+height:100vh;
+  }
+  .banner .title{
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+  
+  }
+  .banner .title h2{
+
+  font-family:  'Nunito', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  }
+.banner .title p{
+
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family:  'Nunito', sans-serif;
+  
+  }
+  
+  .about__page{
+    flex-direction: row;
+    padding: 2rem;
+ }
+ .about__text {
+     flex: 1;
+     margin: 2rem;
+   }
+ 
+ .about__text p{
+    text-align: justify;
+    font-size: var(--normal-font-size);
+    padding: 0;
+ }
+ .about__image img {
+     height: 280px;
+   }
+
+}
+
+
+  
+@media screen and (min-width: 1024px) {
+  .about__text {
+    margin: 2rem 4rem;
+  }
+
+  .about__text h2{
+    font-size: var(--big-font-size);
+  }
+
+  .about__text p{
+    font-size: var(--h3-font-size);
+  }
+  
+  .about__image img {
+    height: 250px;
+  }
+
+  
+
+
+
+
+}
+
+@media screen and  (min-width: 1244px) {
+  .about__text {
+      margin: 2rem 6rem;
+    }
+  
+    .about__image img {
+      width: 450px;
+      height: 300px;
+    }
+ 
+}
